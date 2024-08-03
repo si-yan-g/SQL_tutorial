@@ -111,7 +111,7 @@ from
 where 
     country = 'USA'
 order by
-    customername
+    customername;
 ```
 ---
 
@@ -130,7 +130,7 @@ group by
 having
     sum(creditlimit) < 50000
 order by 
-    amount desc
+    amount desc;
 ```
 ---
 
@@ -151,7 +151,7 @@ on
 where
     jobtitle = 'Sales Rep'
 and
-    city = 'Paris'
+    city = 'Paris';
 ```
 ---
 
@@ -167,7 +167,7 @@ join
 on
     e.officecode=o.officecode
 where
-    territory = 'EMEA'
+    territory = 'EMEA';
 ```
 ---
 
@@ -188,6 +188,6 @@ on
 where
     jobtitle = 'Sales Rep'
 and
-    customernumber is null
+    customernumber is null;
 ```
 ---
